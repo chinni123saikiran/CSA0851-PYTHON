@@ -6,8 +6,6 @@ def maxArea(A, Len) :
             # Calculating the max area
             area = max(area, min(A[j], A[i]) * (j - i))
     return area
- 
-# Driver code
 a = [ 1, 5, 4, 3 ]
  
 len1 = len(a)
